@@ -1,17 +1,31 @@
 import React from 'react';
+import { Media } from 'reactstrap';
 
-export default function About() {
-  return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
-  );
-}
+const About = () => {
+    return (
+        <Media>
+            <Media center>
+                <Media object src="./src/assets/images/selfie.jpg" alt="Selfie" className="mr-3 mt-3 rounded-circle" />
+            </Media>
+            <Media body>
+                <Media heading>
+                    Cat Ormerod <small><i>full stack developer</i></small>
+                </Media>
+                <p>I've worked in Marketing for the last 20 years, most recently in the
+                    Airline Industry for Air New Zealand. In that time I've enjoyed roles in
+                    Trade Marketing, Brand Development and also a few Marketing Analytics
+                    roles.</p>
+                <p>I currently live in Central Coast, NSW with my partner and our 3 year old
+                    daughter, Piper. I've enjoyed being a full-time mum for the last few years,
+                    but now I'm ready for the next challenge
+                </p>
+                <p>When looking at going back into the workforce I decided to follow my heart and give coding a go.
+                    Whilst I thought it would be a good fit for my personality and background, I didn't realize quite how much
+                    I've love it.  I'm excited to see where this journey takes me and looking forward to getting a job once I've completed the course.
+                </p>
+            </Media>
+        </Media>
+    );
+};
+
+export default About;
