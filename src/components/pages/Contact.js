@@ -1,22 +1,30 @@
 import React from 'react';
+import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-export default function Contact() {
-  return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+const Example = (props) => {
+    return (
+        <Form>
+            <Row form>
+                <Col md={6}>
+                    <FormGroup>
+                        <Label for="name">Name</Label>
+                        <Input type="text" name="name" id="name" placeholder="please enter your name" />
+                    </FormGroup>
+                </Col>
+                <Col md={6}>
+                    <FormGroup>
+                        <Label for="email">Email</Label>
+                        <Input type="email" name="email" id="email" placeholder="please enter your email address" />
+                    </FormGroup>
+                </Col>
+            </Row>
+            <FormGroup>
+                <Label for="message">Message</Label>
+                <Input type="text" name="message" id="message" placeholder="Please enter a message" />
+            </FormGroup>
+            <Button>Submit</Button>
+        </Form>
+    );
 }
+
+export default Example;
