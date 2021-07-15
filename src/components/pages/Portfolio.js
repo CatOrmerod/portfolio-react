@@ -12,7 +12,7 @@ const Portfolio = (props) => {
     };
     return (
         <Container>
-            {isModalOpen && <Modal selectedProject={selectedProject} onClose={toggleModal} />}
+            <Modal selectedProject={selectedProject} onClose={toggleModal} isOpen={isModalOpen}/>
             <Row xs="1" sm="2" md="3">
                 {projects.map(project => (
                     <Col>
