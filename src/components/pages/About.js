@@ -1,11 +1,12 @@
 import React from 'react';
 import { Media } from 'reactstrap';
+import selfie from '../../assets/images/selfie.jpg';
 
 const About = () => {
     return (
         <Media>
             <Media center>
-                <Media object src="./src/assets/images/selfie.jpg" alt="Selfie" className="mr-3 mt-3 rounded-circle" />
+                <Media object src={selfie} alt="Selfie" className="mr-3 mt-3 rounded-circle" style={{ width: '150px' }} />
             </Media>
             <Media body>
                 <Media heading>
