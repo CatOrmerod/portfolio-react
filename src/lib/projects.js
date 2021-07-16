@@ -1,3 +1,18 @@
+import projectPic1 from "../assets/images/icons/hourglass-top.svg"
+import projectPic2 from "../assets/images/icons/chat-text-fill.svg"
+import projectPic3 from "../assets/images/icons/diagram-3-fill.svg"
+import projectPic4 from "../assets/images/icons/cart-check-fill.svg"
+import projectPic5 from "../assets/images/icons/calendar2-day-fill.svg"
+import projectPic6 from "../assets/images/icons/cloud-sun-fill.svg"
+import projectPic7 from "../assets/images/icons/key-fill.svg"
+import projectSS1 from "../assets/images/screenshots/overworked-screenshot.png"
+import projectSS2 from "../assets/images/screenshots/techblog-screenshot.png"
+import projectSS3 from "../assets/images/screenshots/employee-tracker-screenshot.png"
+import projectSS4 from "../assets/images/screenshots/e-commerce-screenshot.png"
+import projectSS5 from "../assets/images/screenshots/work-day-scheduler-screenshot.png"
+import projectSS6 from "../assets/images/screenshots/weather-dashboard-screenshot.png"
+import projectSS7 from "../assets/images/screenshots/tipsy-tricks-screenshot.png"
+
 export const projects = [
     {
         id: 1,  
@@ -6,8 +21,8 @@ export const projects = [
         projectTools: "Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bcrypt, Objects2csv, Nodemailer, JavaScript, HTML, Bootstrap, CSS, Heroku",
         projectRepo: "https://github.com/CatOrmerod/unpaid-overtime-calc",
         projectURL: "https://the-right-to-switch-off.herokuapp.com/",
-        projectScreenshot: "<img src='./images/screenshot-overworked.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/hourglass-top.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS1,
+        projectPic: projectPic1,
         projectRole: "Group Project",
     },
     {
@@ -17,8 +32,8 @@ export const projects = [
         projectTools: "Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bcrypt, JavaScript, HTML, CSS, Heroku",
         projectRepo: "https://github.com/CatOrmerod/tech-blog",
         projectURL: "https://tech-blog-ormerod.herokuapp.com/ ",
-        projectScreenshot: "<img src='./images/work-day-scheduler-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/chat-text-fill.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS2,
+        projectPic: projectPic2,
         projectRole: "Sole Author",
     },
     {
@@ -28,8 +43,8 @@ export const projects = [
         projectTools: "Node.js, Inquirer, Jest, mySQL",
         projectRepo: "https://github.com/CatOrmerod/employee-management-system",
         projectURL: "https://github.com/CatOrmerod/employee-management-system",
-        projectScreenshot: "<img src='./images/work-day-scheduler-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/diagram-3-fill.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS3,
+        projectPic: projectPic3,
         projectRole: "Sole Author",
     },
     {
@@ -39,8 +54,8 @@ export const projects = [
         projectTools: "Express.js, mySQL",
         projectRepo: "https://github.com/CatOrmerod/e-commerce",
         projectURL: "https://github.com/CatOrmerod/e-commerce",
-        projectScreenshot: "<img src='./images/work-day-scheduler-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/cart-check-fill.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS4,
+        projectPic: projectPic4,
         projectRole: "Sole Author",
     },
     {
@@ -50,8 +65,8 @@ export const projects = [
         projectTools: "HTML, CSS, JavaScript, Bootstrap, GoogleFonts",
         projectRepo: "https://github.com/CatOrmerod/work-day-scheduler",
         projectURL: "https://catormerod.github.io/work-day-scheduler/",
-        projectScreenshot: "<img src='./images/work-day-scheduler-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/calendar2-day-fill.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS5,
+        projectPic: projectPic5,
         projectRole: "Sole Author",
     },
     {
@@ -61,8 +76,8 @@ export const projects = [
         projectTools: "HTML, CSS, JavaScript, jQuery, API, Bootstrap, Font Awesome",
         projectRepo: "https://github.com/CatOrmerod/weather-dashboard",
         projectURL: "https://catormerod.github.io/weather-dashboard/",
-        projectScreenshot: "<img src='./images/weather-dashboard-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/cloud-sun-fill.svg' alt='Image' style='width:90%;max-width:300px'>",
+        projectScreenshot: projectSS6,
+        projectPic: projectPic6,
         projectRole: "Sole Author",
     },
     {
@@ -72,8 +87,8 @@ export const projects = [
         projectTools: "HTML, CSS, JavaScript, jQuery, API, Bootstrap, Font Awesome",
         projectRepo: "https://github.com/RichardtHopkins/Cocktail-suggester",
         projectURL: "https://richardthopkins.github.io/Cocktail-suggester/",
-        projectScreenshot: "<img src='./images/tipsy-tricks-screenshot.png' alt='Image' style='width:100%;max-width:300px'>",
-        projectPic: "<img src='./images/key-fill.svg' alt='Bootstrap' width='90%;max-width:300px'>",
+        projectScreenshot: projectSS7,
+        projectPic: projectPic7,
         projectRole: "Group Project",
     }
 ]
