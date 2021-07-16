@@ -10,7 +10,6 @@ const Navigation = (props) => {
   const [collapsed, setCollapsed] = useState(false);
   const toggleNavbar = () => setCollapsed(!collapsed);
   let location = useLocation();
-  console.log(location);
 
   return (
     <div>
