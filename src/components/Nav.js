@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavLink } from 'reactstrap';
+import {
+  Link,
+  useRouteMatch,
+  useLocation
+} from "react-router-dom";
 
 const Navigation = (props) => {
   const [collapsed, setCollapsed] = useState(false);
   const toggleNavbar = () => setCollapsed(!collapsed);
-  const {
-    pages = [],
-    setCurrentPage,
-    currentPage
-  } = props;
+  let location = useLocation();
+  console.log(location);
 
   return (
     <div>
@@ -17,13 +19,22 @@ const Navigation = (props) => {
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav className="mr-auto">
-            {pages.map(page => (
                 <NavLink
-                  className={`${page.name === currentPage.name}`}
-                  key={page.name}
-                  onClick={() => setCurrentPage(page)}
-                >{page.name}</NavLink>
-              ))}
+                  className={location.pathname === '/about' ? 'active' : ''}
+                ><Link to ='/about'>About</Link>
+                </NavLink>
+                <NavLink
+                  className={location.pathname === '/portfolio' ? 'active' : ''}
+                ><Link to ='/portfolio'>Portfolio</Link>
+                </NavLink>
+                <NavLink
+                  className={location.pathname === '/resume' ? 'active' : ''}
+                ><Link to ='/resume'>Resume</Link>
+                </NavLink>
+                <NavLink
+                  className={location.pathname === '/contact' ? 'active' : ''}
+                ><Link to ='/contact'>Contact</Link>
+                </NavLink>
             </Nav>
           </Collapse>
         </Navbar>

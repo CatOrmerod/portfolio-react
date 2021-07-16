@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css';
 import About from './components/pages/About.js';
@@ -9,36 +15,29 @@ import Portfolio from './components/pages/Portfolio.js';
 import Resume from './components/pages/Resume.js';
 
 function App() {
-
-  const [pages] = useState([
-    { name: 'About' },
-    { name: 'Portfolio' },
-    { name: 'Resume' },
-    { name: 'Contact' }
-  ]);
-  const [currentPage, setCurrentPage] = useState(pages[0]);
-
-  useEffect(() => {
-    document.title = `CatOrmerod :: ${currentPage.name}`
-  });
-
   return (
-    <body className="text-center">
+    <Router>
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <Nav
-          pages={pages}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
-        />
+        <Nav/>
         <main>
-          {currentPage.name === 'About' && <About />}
-          {currentPage.name === 'Portfolio' && <Portfolio />}
-          {currentPage.name === 'Resume' && <Resume />}
-          {currentPage.name === 'Contact' && <Contact />}
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/resume">
+            <Resume />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
         </main>
         <Footer />
       </div>
-    </body>
+      </Router>
   );
 };
 
