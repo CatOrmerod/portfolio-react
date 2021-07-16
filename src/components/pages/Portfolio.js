@@ -4,7 +4,7 @@ import { Card, Button, CardTitle, CardText, CardFooter, CardBody, CardImg, Row, 
 import { projects } from '../../lib/projects.js'
 
 const Portfolio = (props) => {
-    const [selectedProject, setSelectedProject] = useState();
+    const [selectedProject, setSelectedProject] = useState({});
     const [isModalOpen, setIsModalOpen] = useState(false);
     const toggleModal = project => {
         setSelectedProject(project);
@@ -17,7 +17,7 @@ const Portfolio = (props) => {
                 {projects.map(project => (
                     <Col>
                         <Card>
-                            <CardImg top width="100%" src={project.projectPic} alt="" />
+                            <CardImg top width="100%" src={project.projectPic} alt="" style={{ width:'90%', maxWidth:'300px'}} />
                             <CardBody>
                                 <CardTitle tag="h5">{project.projectTitle}</CardTitle>
                                 <CardText className="text-muted">{project.projectRole}</CardText>
