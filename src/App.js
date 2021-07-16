@@ -7,12 +7,12 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/App.css';
-import About from './components/pages/About.js';
-import Contact from './components/pages/Contact.js';
-import Footer from './components/Footer.js';
-import Nav from './components/Nav.js';
-import Portfolio from './components/pages/Portfolio.js';
-import Resume from './components/pages/Resume.js';
+import About from './components/About/About.js';
+import Contact from './components/Contact/Contact.js';
+import Footer from './components/Footer/Footer.js';
+import Nav from './components/Nav/Nav.js';
+import Portfolio from './components/Portfolio/Portfolio.js';
+import Resume from './components/Resume/Resume.js';
 
 function App() {
   return (

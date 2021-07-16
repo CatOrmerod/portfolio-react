@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import Modal from '../Modal.js';
+import Modal from '../Modal/Modal.js';
 import { Card, Button, CardTitle, CardText, CardFooter, CardBody, CardImg, Row, Col, Container } from 'reactstrap';
+import './portfolio.css';
 import { projects } from '../../lib/projects.js'
 
 const Portfolio = (props) => {

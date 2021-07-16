@@ -1,4 +1,5 @@
 import React from 'react';
+import './resume.css';
 import myResume from '../../../src/assets/resume/resume.pdf';
 
 export default function Resume() {

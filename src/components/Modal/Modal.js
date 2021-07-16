@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, List, ListInlineItem } from 'reactstrap';
+import './modal.css';
 
 const ModalExample = ({ isOpen, onClose, selectedProject }) => {
     console.log(selectedProject);
@@ -25,8 +26,8 @@ const ModalExample = ({ isOpen, onClose, selectedProject }) => {
                 </List>
             </ModalBody>
             <ModalFooter>
-                <Button color="primary" href={projectRepo} onClick={projectRepo} target="_blank">Github</Button>
-                <Button color="secondary" href={projectURL} onClick={projectURL} target="_blank">Deployed</Button>
+                <Button href={projectRepo} onClick={projectRepo} target="_blank">Github</Button>
+                <Button href={projectURL} onClick={projectURL} target="_blank">Deployed</Button>
             </ModalFooter>
         </Modal>
     );

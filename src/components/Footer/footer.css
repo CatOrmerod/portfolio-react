@@ -1,0 +1,15 @@
+/* Add some padding to the footer */
+footer {
+    background-color:  var(--dark);
+    color: var(--pink);
+    padding: 25px;
+  }
+    
+  /* Style the icon bar links */
+  .icon-bar a {
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: var(--pink);
+    font-size: 20px;
+  }
