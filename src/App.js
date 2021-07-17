@@ -21,7 +21,7 @@ function App() {
         <Nav/>
         <main>
         <Switch>
-        <Route path="/">
+        <Route path="/portfolio-react">
             <About />
           </Route>
           <Route path="/about">

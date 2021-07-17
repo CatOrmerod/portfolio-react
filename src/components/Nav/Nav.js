@@ -17,7 +17,7 @@ const Navigation = (props) => {
   return (
     <div>
       <Navbar expand="md">
-        <NavbarBrand>Portfolio - Cat Ormerod</NavbarBrand>
+        <NavbarBrand href="/portfolio-react">Portfolio - Cat Ormerod</NavbarBrand>
         <NavbarToggler onClick={toggle} light />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
