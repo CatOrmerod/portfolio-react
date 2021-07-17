@@ -18,7 +18,7 @@ const ModalExample = ({ isOpen, onClose, selectedProject }) => {
         <Modal isOpen={isOpen} toggle={onClose}>
             <ModalHeader toggle={onClose}>{projectTitle}</ModalHeader>
             <ModalBody>
-            <img src={projectScreenshot} alt="" style={{ width:'90%', maxWidth:'300px'}} />
+            <img src={projectScreenshot} alt="" className='img' style={{ width:'90%', maxWidth:'300px'}} />
                 <List type="inline">
                     <ListInlineItem>Description: {projectDescription}</ListInlineItem>
                     <ListInlineItem>Tools: {projectTools}</ListInlineItem>

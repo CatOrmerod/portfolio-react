@@ -18,7 +18,7 @@ const Portfolio = (props) => {
                 {projects.map(project => (
                     <Col>
                         <Card>
-                            <CardImg top width="100%" src={project.projectPic} alt="" style={{ width:'90%', maxWidth:'300px'}} />
+                            <CardImg top width="90%" src={project.projectPic} alt="" className='img' style={{ width:'90%', maxWidth:'300px', textAlign: 'center'}}/>
                             <CardBody>
                                 <CardTitle tag="h5">{project.projectTitle}</CardTitle>
                                 <CardText className="text-muted">{project.projectRole}</CardText>
