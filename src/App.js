@@ -21,6 +21,9 @@ function App() {
         <Nav/>
         <main>
         <Switch>
+        <Route path="/">
+            <About />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
