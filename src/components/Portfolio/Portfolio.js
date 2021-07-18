@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../Modal/Modal.js';
-import { Card, Button, CardTitle, CardText, CardFooter, CardBody, CardImg, Row, Col, Container } from 'reactstrap';
+import { Card, Button, CardTitle, CardText, CardFooter, CardBody, CardImg, Row, Col, Container, Jumbotron } from 'reactstrap';
 import './portfolio.css';
 import { projects } from '../../lib/projects.js'
 
@@ -14,13 +14,17 @@ const Portfolio = (props) => {
     return (
         <Container>
             <Modal selectedProject={selectedProject} onClose={toggleModal} isOpen={isModalOpen}/>
-            <Row xs="1" sm="2" md="3">
+            <Jumbotron className="text-center">
+            <h3>My Projects</h3>
+            <p className="lead">Check out my work below</p>
+            </Jumbotron>
+            <Row xs="1" sm="2" md="4" lg="6">
                 {projects.map(project => (
                     <Col>
                         <Card className='h-100'>
-                            <CardImg top width="90%" src={project.projectPic} alt="" className='img' style={{ width:'90%', maxWidth:'300px', textAlign: 'center'}}/>
+                            <CardImg top width="90%" src={project.projectPic} alt="" className='img' style={{ width:'90%', maxWidth:'250px', textAlign: 'center'}}/>
                             <CardBody>
-                                <CardTitle tag="h5">{project.projectTitle}</CardTitle>
+                                <CardTitle tag="h6">{project.projectTitle}</CardTitle>
                                 <CardText className="text-muted">{project.projectRole}</CardText>
                             </CardBody>
                             <CardFooter>
