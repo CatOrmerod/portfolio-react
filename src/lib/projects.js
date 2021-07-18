@@ -16,7 +16,7 @@ import projectSS7 from "../assets/images/screenshots/tipsy-tricks-screenshot.png
 export const projects = [
     {
         id: 1,  
-        projectTitle: "You have the right to switch off",
+        projectTitle: "Overworked",
         projectDescription: "An application that highlights the hour and cost implications to a workers year by working unpaid overtime on a regular basis.",
         projectTools: "Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bcrypt, Objects2csv, Nodemailer, JavaScript, HTML, Bootstrap, CSS, Heroku",
         projectRepo: "https://github.com/CatOrmerod/unpaid-overtime-calc",
@@ -82,7 +82,7 @@ export const projects = [
     },
     {
         id: 7,
-        projectTitle: "Tipsy Tricks - Group Project",
+        projectTitle: "Tipsy Tricks",
         projectDescription: "A home bar assistant to take any entered ingredient and display cocktails that use that ingredient.  Further to this it takes the users current location and provides a list of Liquor Stores in a 5km radius in case they need more ingredients.",
         projectTools: "HTML, CSS, JavaScript, jQuery, API, Bootstrap, Font Awesome",
         projectRepo: "https://github.com/RichardtHopkins/Cocktail-suggester",
