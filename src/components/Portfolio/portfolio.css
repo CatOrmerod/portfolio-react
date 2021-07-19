@@ -6,6 +6,7 @@
   background-color: var(--dark);
   margin: 0.625rem 0;
   transition: all 0.5s ease-in-out;
+  /* box-shadow: 2px 2px var(--green); */
 }
 
 .img {

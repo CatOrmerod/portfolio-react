@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion'
 import Modal from '../Modal/Modal.js';
 import { Card, Button, CardTitle, CardText, CardFooter, CardBody, CardImg, Row, Col, Container, Jumbotron } from 'reactstrap';
 import './portfolio.css';
