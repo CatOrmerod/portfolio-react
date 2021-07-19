@@ -19,6 +19,7 @@ body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  justify-content: center;
 }
     
 h1,
@@ -36,7 +37,7 @@ h6 {
 
 p {
   color: var(--light);
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 0 0 1rem;
   line-height: 1.5;
 }

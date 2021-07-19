@@ -5,7 +5,7 @@ import selfie from '../../assets/images/selfie.jpg';
 const About = () => {
     return (
         <Media className="text-center">
-            <Media>
+            <Media middle>
                 <Media object src={selfie} alt="Selfie" className="mr-3 mt-3 rounded-circle" style={{ width: '150px' }} />
             </Media>
             <Media body>
