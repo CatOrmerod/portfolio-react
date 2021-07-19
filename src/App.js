@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -16,31 +16,21 @@ import Resume from './components/Resume/Resume.js';
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <Nav/>
         <main>
         <Switch>
-        <Route path="/portfolio-react">
-            <About />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route path="/resume">
-            <Resume />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
+          <Route exact path="/" component={About} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/contact"component={Contact} />
         </Switch>
         </main>
         <Footer />
       </div>
-      </Router>
+    </HashRouter>
   );
 };
 
