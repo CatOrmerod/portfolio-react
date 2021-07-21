@@ -26,8 +26,8 @@ const ModalExample = ({ isOpen, onClose, selectedProject }) => {
                 </List>
             </ModalBody>
             <ModalFooter>
-                <Button href={projectRepo} onClick={projectRepo} target="_blank">Github</Button>
-                <Button href={projectURL} onClick={projectURL} target="_blank">Deployed</Button>
+                <Button href={projectRepo} onClick={projectRepo} target="_blank" rel="noreferrer">Github</Button>
+                <Button href={projectURL} onClick={projectURL} target="_blank" rel="noreferrer">Deployed</Button>
             </ModalFooter>
         </Modal>
     );
