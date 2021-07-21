@@ -19,7 +19,7 @@ const Portfolio = (props) => {
             <h3>My Projects</h3>
             <p className="lead">Check out my work below</p>
             </Jumbotron>
-            <Row xs="1" sm="2" md="4" lg="6">
+            <Row xs="1" sm="2" md="4">
                 {projects.map(project => (
                     <Col>
                         <Card className='h-100'>
