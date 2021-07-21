@@ -10,7 +10,7 @@ import './assets/css/App.css';
 import About from './components/About/About.js';
 import Contact from './components/Contact/Contact.js';
 import Footer from './components/Footer/Footer.js';
-import Nav from './components/Nav/Nav.js';
+import Header from './components/Header/Header.js';
 import Portfolio from './components/Portfolio/Portfolio.js';
 import Resume from './components/Resume/Resume.js';
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <Nav/>
+        <Header/>
         <main>
         <Switch>
           <Route exact path="/" component={About} />
