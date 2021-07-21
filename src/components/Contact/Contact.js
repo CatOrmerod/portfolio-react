@@ -30,7 +30,7 @@ const Contact = (props) => {
           <Col>
           <AvField name="email" label="Email" type="text" validate={{
             required: {value: true, errorMessage: 'Please enter an email address'},
-            pattern: {value: '^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$'}
+            email: {value: true, errorMessage: 'Please enter a valid email address'}
         }} />
         </Col>
         </Row>
