@@ -13,8 +13,8 @@ export default function Resume() {
     <Row>
         <Col>
         <div className="h-100 p-2 rounded-3">
-                <p>Currently working towards a certificate in Full Stack Web Development from the University of Sydney
-                    Coding Bootcamp.</p>
+                <p>Completed a certificate in Full Stack Web Development from the University of Sydney
+                    Coding Bootcamp with an A+ average.</p>
                 <p>Based in the Greater Sydney area, I'm looking for remote working opportunities</p>
                 
             </div>
