@@ -23,7 +23,7 @@ const About = () => {
                 <p>When looking at going back into the workforce I decided to follow my heart and give coding a go.
                     Whilst I thought it would be a good fit for my personality and background, I didn't realize quite how much
                     I'd love it.  I've recently completed the University of Sydney Coding Bootcamp, an immersive 6 month course 
-                    that teaches full-stack development.  Coming out with an A+ average, I'm now looking at next steps.  
+                    that teaches full-stack development.  Coming out with an A+ average, I'm now actively searching for a job.    
                 </p>
             </Media>
         </Media>
