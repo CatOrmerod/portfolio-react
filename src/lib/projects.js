@@ -13,7 +13,7 @@ import projectSS1 from "../assets/images/screenshots/babysitters-club-screenshot
 import projectSS2 from "../assets/images/screenshots/book-search-screenshot.png"
 import projectSS3 from "../assets/images/screenshots/budget-tracker-screenshot.png"
 import projectSS4 from "../assets/images/screenshots/workout-tracker-screenshot.png"
-import projectSS4 from "../assets/images/screenshots/overworked-screenshot.png"
+import projectSS5 from "../assets/images/screenshots/overworked-screenshot.png"
 import projectSS6 from "../assets/images/screenshots/techblog-screenshot.png"
 import projectSS7 from "../assets/images/screenshots/employee-tracker-screenshot.png"
 import projectSS8 from "../assets/images/screenshots/e-commerce-screenshot.png"
