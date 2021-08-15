@@ -18,11 +18,12 @@ const About = () => {
                     roles.</p>
                 <p>I currently live in Central Coast, NSW with my partner and our 3 year old
                     daughter, Piper. I've enjoyed being a full-time mum for the last few years,
-                    but now I'm ready for the next challenge
+                    but now I'm ready for the next challenge.
                 </p>
                 <p>When looking at going back into the workforce I decided to follow my heart and give coding a go.
                     Whilst I thought it would be a good fit for my personality and background, I didn't realize quite how much
-                    I've love it.  I'm excited to see where this journey takes me and looking forward to getting a job once I've completed the course.
+                    I'd love it.  I've recently completed the University of Sydney Coding Bootcamp, an immersive 6 month course 
+                    that teaches full-stack development.  Coming out with an A+ average, I'm now looking at next steps.  
                 </p>
             </Media>
         </Media>

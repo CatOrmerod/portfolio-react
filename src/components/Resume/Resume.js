@@ -49,6 +49,7 @@ export default function Resume() {
                 </ul>
                 <ul>
                 <h6>Server-Side Developmet</h6>
+                <ul>Graphql</ul>
                 <ul>Express</ul>
                 <ul>User Authentication</ul>
                 <ul>Sequelize</ul>
@@ -74,7 +75,7 @@ export default function Resume() {
         <Row>
         <div className="h-100 p-2 rounded-3">
                 <h4>More about me</h4>
-                <p>I am a results-oriented project management specialist with a proven track record delivering
+                <p>A results-oriented project management specialist with a proven track record delivering
                     significant campaigns with challenging deadlines and strict budgets.</p>
                 <p>Strong analytical skills, including a thorough understanding of how to interpret customer & business
                     needs and translate them into apppliation and operational requirements.</p>
