@@ -1,19 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.e7686374.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.94ade37f.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.94ade37f.chunk.js.map",
-    "runtime-main.js": "/portfolio-react/static/js/runtime-main.ea3b83a5.js",
-    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.ea3b83a5.js.map",
+    "main.js": "/portfolio-react/static/js/main.c882aecd.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.c882aecd.chunk.js.map",
+    "runtime-main.js": "/portfolio-react/static/js/runtime-main.5b9ba8c6.js",
+    "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.5b9ba8c6.js.map",
     "static/css/2.4be38407.chunk.css": "/portfolio-react/static/css/2.4be38407.chunk.css",
-    "static/js/2.68ab1e93.chunk.js": "/portfolio-react/static/js/2.68ab1e93.chunk.js",
-    "static/js/2.68ab1e93.chunk.js.map": "/portfolio-react/static/js/2.68ab1e93.chunk.js.map",
-    "static/js/3.f047ea09.chunk.js": "/portfolio-react/static/js/3.f047ea09.chunk.js",
-    "static/js/3.f047ea09.chunk.js.map": "/portfolio-react/static/js/3.f047ea09.chunk.js.map",
+    "static/js/2.1e758468.chunk.js": "/portfolio-react/static/js/2.1e758468.chunk.js",
+    "static/js/2.1e758468.chunk.js.map": "/portfolio-react/static/js/2.1e758468.chunk.js.map",
+    "static/js/3.d1dcca35.chunk.js": "/portfolio-react/static/js/3.d1dcca35.chunk.js",
+    "static/js/3.d1dcca35.chunk.js.map": "/portfolio-react/static/js/3.d1dcca35.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
     "static/css/2.4be38407.chunk.css.map": "/portfolio-react/static/css/2.4be38407.chunk.css.map",
     "static/css/main.e7686374.chunk.css.map": "/portfolio-react/static/css/main.e7686374.chunk.css.map",
-    "static/js/2.68ab1e93.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.68ab1e93.chunk.js.LICENSE.txt",
+    "static/js/2.1e758468.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.1e758468.chunk.js.LICENSE.txt",
+    "static/media/babysitters-club-screenshot.35fb47ed.png": "/portfolio-react/static/media/babysitters-club-screenshot.35fb47ed.png",
+    "static/media/book-half.11186556.svg": "/portfolio-react/static/media/book-half.11186556.svg",
+    "static/media/book-search-screenshot.d4627ee7.png": "/portfolio-react/static/media/book-search-screenshot.d4627ee7.png",
     "static/media/budget-tracker-screenshot.093a1fef.png": "/portfolio-react/static/media/budget-tracker-screenshot.093a1fef.png",
     "static/media/calendar2-day-fill.76110d03.svg": "/portfolio-react/static/media/calendar2-day-fill.76110d03.svg",
     "static/media/cart-check-fill.113f7ef5.svg": "/portfolio-react/static/media/cart-check-fill.113f7ef5.svg",
@@ -23,10 +26,11 @@
     "static/media/diagram-3-fill.57cfe2a9.svg": "/portfolio-react/static/media/diagram-3-fill.57cfe2a9.svg",
     "static/media/e-commerce-screenshot.8ca48ea2.png": "/portfolio-react/static/media/e-commerce-screenshot.8ca48ea2.png",
     "static/media/employee-tracker-screenshot.410ee30f.png": "/portfolio-react/static/media/employee-tracker-screenshot.410ee30f.png",
+    "static/media/file-person-fill.ddc71f7f.svg": "/portfolio-react/static/media/file-person-fill.ddc71f7f.svg",
     "static/media/hourglass-top.06088251.svg": "/portfolio-react/static/media/hourglass-top.06088251.svg",
     "static/media/overworked-screenshot.a732b3f6.png": "/portfolio-react/static/media/overworked-screenshot.a732b3f6.png",
     "static/media/piggy-bank-fill.b09f5eb2.svg": "/portfolio-react/static/media/piggy-bank-fill.b09f5eb2.svg",
-    "static/media/resume.3adc1b2e.pdf": "/portfolio-react/static/media/resume.3adc1b2e.pdf",
+    "static/media/resume.d0a3c10e.pdf": "/portfolio-react/static/media/resume.d0a3c10e.pdf",
     "static/media/selfie.0e1444ed.jpg": "/portfolio-react/static/media/selfie.0e1444ed.jpg",
     "static/media/techblog-screenshot.ca957927.png": "/portfolio-react/static/media/techblog-screenshot.ca957927.png",
     "static/media/tipsy-tricks-screenshot.374b2548.png": "/portfolio-react/static/media/tipsy-tricks-screenshot.374b2548.png",
@@ -36,10 +40,10 @@
     "static/media/workout-tracker-screenshot.4d9ca2f5.png": "/portfolio-react/static/media/workout-tracker-screenshot.4d9ca2f5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea3b83a5.js",
+    "static/js/runtime-main.5b9ba8c6.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.68ab1e93.chunk.js",
+    "static/js/2.1e758468.chunk.js",
     "static/css/main.e7686374.chunk.css",
-    "static/js/main.94ade37f.chunk.js"
+    "static/js/main.c882aecd.chunk.js"
   ]
 }
