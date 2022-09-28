@@ -15,7 +15,7 @@ export default function Resume() {
         <div className="h-100 p-2 rounded-3">
                 <p>Completed a certificate in Full Stack Web Development from the University of Sydney
                     Coding Bootcamp with an A+ average.</p>
-                <p>Based in the Greater Sydney area, I'm looking for remote working opportunities</p>
+                <p>Currently working for Deloitte in the Cloud & Engineering team with a focus on Integration and Quality Engineering.</p>
                 
             </div>
         </Col>
@@ -42,13 +42,13 @@ export default function Resume() {
                 <ul>Github</ul>
                 </ul>
                 <ul>
-                <h6>Computer Science</h6>
+                <h6>Computer Science (beginner)</h6>
                 <ul>Design Patterns</ul>
                 <ul>Data Structures</ul>
                 <ul>Algorithms</ul>
                 </ul>
                 <ul>
-                <h6>Server-Side Developmet</h6>
+                <h6>Server-Side Development</h6>
                 <ul>Graphql</ul>
                 <ul>Express</ul>
                 <ul>User Authentication</ul>
@@ -62,6 +62,8 @@ export default function Resume() {
                 </ul>
                 <ul>
                 <h6>Quality and Performance</h6>
+                <ul>REST API testing - Karate</ul>
+                <ul>Soap UI testing</ul>
                 <ul>Unit Testing</ul>
                 <ul>Google Lighthouse</ul>
                 <ul>Webpack</ul>
@@ -85,10 +87,11 @@ export default function Resume() {
         </Row>
         <Row>
         <div className="h-100 p-2 rounded-3">
-                <h4>Career Highlights</h4>
-                <p>Seconded to the new office in Singapore to deliver events, marketing campaigns, promotions and set up processes and ongoing tools for the team.</p>
-                <p>Developing the Airpoints programme marketing launch for the new retail coalition – this involved working with 4 key business partners to deliver a priming and launch campaign that met objectives for all partners included.</p>
-                <p>Nominated finalist for the ICON award in December 2015 at Air NZ, as well as ‘Quest for the Best’ award at SKYCITY, both internal staff recognition programmes.</p>
+                <h4>Deloitte Experience</h4>
+                <p>Hired into Deloitte as a Analyst directly out of the full-stack development course, and within 8 months promoted to Consultant.</p>
+                <p>Recently completed the Mulesoft Fundamentals course in preparation for my next project where I will be working on Mulesoft.</p>
+                <p>Previous project was in an Automation testing role where I did end-to-end functional testing on REST and SOAP API's using various tools, including Karate, Soap UI, Ready API and Postman.</p>
+                <p>Completed my AZ-900 Azure Fundamentals certification with Microsoft.</p>
             </div>
         </Row>
         </Col>
