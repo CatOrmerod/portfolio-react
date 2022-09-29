@@ -26,20 +26,22 @@ export default function Resume() {
                 <h4>Skills</h4>
                 <ul>
                 <h6>Browser Based Technologies</h6>
-                <ul>HTML</ul>
-                <ul>CSS</ul>
-                <ul>Javascript</ul>
+                <ul>HTML, CSS, Responsive Design</ul>
+                <ul>Javascript & Node.js</ul>
+                <ul>React.js</ul>
                 <ul>jQuery</ul>
-                <ul>Responsive Design</ul>
                 <ul>Bootstrap</ul>
                 <ul>Handlebars</ul>
                 <ul>Local Storage, Session Storage, IndexedDB</ul>
-                <ul>React.js</ul>
                 </ul>
                 <ul>
                 <h6>Deployment</h6>
                 <ul>Heroku</ul>
                 <ul>Github</ul>
+                </ul>
+                <ul>
+                <h6>Integration</h6>
+                <ul>Mulesoft</ul>
                 </ul>
                 <ul>
                 <h6>Computer Science (beginner)</h6>
@@ -89,7 +91,7 @@ export default function Resume() {
         <div className="h-100 p-2 rounded-3">
                 <h4>Deloitte Experience</h4>
                 <p>Hired into Deloitte as a Analyst directly out of the full-stack development course, and within 8 months promoted to Consultant.</p>
-                <p>Recently completed the Mulesoft Fundamentals course in preparation for my next project where I will be working on Mulesoft.</p>
+                <p>Recently completed the Anypoint Platform Development Fundamentals course in preparation for my next project where I will be working on Mulesoft.</p>
                 <p>Previous project was in an Automation testing role where I did end-to-end functional testing on REST and SOAP API's using various tools, including Karate, Soap UI, Ready API and Postman.</p>
                 <p>Completed my AZ-900 Azure Fundamentals certification with Microsoft.</p>
             </div>
