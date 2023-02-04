@@ -14,8 +14,8 @@ const About = () => {
                 </Media>
                 <p>Currently working at Deloitte in the Cloud & Engineering team, 
                     which has been a fabulous start to my career in development.  
-                    My first project was a role in Automation Testing where I wrote scripts to test API's end-to-end. 
-                    Now about to move into a Mulesoft project as my next step, I've just completed the Anypoint Platform Development Fundamentals Course and about to get certified with my exam booked for late October.
+                    My most recent role was in Automation Testing where I wrote scripts to test API's end-to-end using the Karate Testing Framework. 
+                    Now about to move into a Mulesoft project as my next step, I've just completed the Anypoint Platform Development Fundamentals Course and about to get certified.  I've also obtained my Boomi Integration Developer Certificate, as well as the Mulesoft Integration Associate. 
                     In my spare time I've completed the Azure Fundamentals certificate and am now focussed on learning C# in my downtime.  I love that aspect of development, where there is ALWAYS something new to learn!</p>
                 <p>Prior to Deloitte I've worked in Marketing for the last 20 years, most recently in the
                     Airline Industry for Air New Zealand. In that time I've enjoyed roles in

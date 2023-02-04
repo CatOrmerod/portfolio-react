@@ -42,6 +42,7 @@ export default function Resume() {
                 <ul>
                 <h6>Integration</h6>
                 <ul>Mulesoft</ul>
+                <ul>Boomi</ul>
                 </ul>
                 <ul>
                 <h6>Computer Science (beginner)</h6>
@@ -94,6 +95,7 @@ export default function Resume() {
                 <p>Recently completed the Anypoint Platform Development Fundamentals course in preparation for my next project where I will be working on Mulesoft.</p>
                 <p>Previous project was in an Automation testing role where I did end-to-end functional testing on REST and SOAP API's using various tools, including Karate, Soap UI, Ready API and Postman.</p>
                 <p>Completed my AZ-900 Azure Fundamentals certification with Microsoft.</p>
+                <p>Completed my Boomi Integration Developer as well as the Mulesoft Integration Associate Certifications.</p>
             </div>
         </Row>
         </Col>
